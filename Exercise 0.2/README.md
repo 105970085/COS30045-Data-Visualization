@@ -1,4 +1,17 @@
-# COS30045 – Data Visualisation  
+# COS30045 – Data Visualisation
+
+## Generative AI Reflection
+I used ChatGPT to assist me with this exercise.
+
+I used ChatGPT mainly to understand HTML, CSS and JavaScript concepts, and to get help with the initial website structure and CSS. I also asked questions about how specific CSS properties and JavaScript code work.
+
+After receiving suggestions from ChatGPT, I changed and simplified the CSS to suit my own design. I also added comments to the JavaScript code to help explain how the FAQ accordion works.
+
+Through using GenAI, I learned more about CSS properties such as margin, padding, width, max-width, display, and cursor. I also learned how JavaScript can add and remove a CSS class to show and hide FAQ answers.
+
+One limitation was that some generated code included CSS properties that I did not fully understand. Instead of using the code without understanding it, I asked ChatGPT to explain each part and removed or simplified code that was not necessary for my website.
+
+
 ## Exercise 0.2 – Energy Website
 
 Welcome to **Exercise 0.2** for COS30045 Data Visualisation.
@@ -37,7 +50,6 @@ Your forked repository : "github.com/yourusername/COS30045-Data-Visualization/en
 # Step 2 – Clone the Repository
 
 Clone your forked repository to your local machine using **VS Code** or the terminal.
-
 
 
 # Step 3 – Project Structure

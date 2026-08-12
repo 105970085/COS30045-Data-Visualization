@@ -1,0 +1,130 @@
+/* Set the basic style for the whole page */
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f2f8fa;
+    color: #2a465b;
+}
+
+
+/* Navigation bar */
+.navbar {
+    background-color: #2a465b;
+    padding: 15px;
+    text-align: center;
+}
+
+
+/* Logo */
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* Navigation links */
+.nav-links {
+    margin-top: 10px;
+}
+
+
+/* Links in the navigation */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+
+/* Change colour when the mouse is over a link */
+.nav-links a:hover {
+    background-color: #087e8b;
+}
+
+
+/* Show the current page */
+.nav-links a.active {
+    background-color: #01baef;
+}
+
+
+/* Main content */
+main {
+    width: 90%;
+    margin: 30px auto; /* auto automatically creates equal left and right margins */
+}
+
+
+/* Main heading section */
+.hero {
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+
+/* Main heading */
+.hero h1 {
+    color:  #2a465b;
+}
+
+
+/* Content sections */
+.content-section,
+.faq-section {
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+
+/* Section headings */
+.content-section h2,
+.faq-section h2 {
+    color:  #2a465b;
+}
+
+
+/* FAQ question */
+.faq-question {
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    border: none; /* erase the border */
+    border-bottom: 3px dotted black;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: #243746;
+    cursor: pointer; /* Change the cursor like clickable */
+}
+
+
+/* Change FAQ question colour when the mouse is over it */
+.faq-question:hover {
+    color:  #6fc6de;
+}
+
+
+/* Hide FAQ answers */
+.faq-answer {
+    display: none;
+    padding: 15px  15px; /* Create padding at the top, bottom, left and right */
+}
+
+
+/* Show FAQ answer when JavaScript adds the "show" class */
+.faq-answer.show {
+    display: block;
+}
+
+
+/* Footer */
+footer {
+    background-color: #2a465b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
