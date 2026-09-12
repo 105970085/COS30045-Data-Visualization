@@ -168,23 +168,30 @@
             r="3"
             fill="#ffd65a"/>
 
-    <!-- Windows -->
+<!-- Windows -->
+<g id="windows">
+
+  <!-- First window -->
+  <rect class="window"
+        x="160" y="150"
+        width="35" height="30"/>
+
+  <line x1="177" y1="150"
+        x2="177" y2="180"
+        stroke="#315b6b"/>
+
+  <line x1="160" y1="165"
+        x2="195" y2="165"
+        stroke="#315b6b"/>
+
+  <!-- Second window -->
+  <g transform="translate(95, 0)">
     <rect class="window"
           x="160" y="150"
           width="35" height="30"/>
+  </g>
 
-    <rect class="window"
-          x="255" y="150"
-          width="35" height="30"/>
-
-    <!-- Window lines -->
-    <line x1="177" y1="150"
-          x2="177" y2="180"
-          stroke="#ff74a5"/>
-
-    <line x1="160" y1="165"
-          x2="195" y2="165"
-          stroke="#ff74a5"/>
+</g>
 
   </g>
 
@@ -203,35 +210,44 @@
         stroke-width="20"
         fill="none"/>
 
-  <!-- Flower -->
-  <circle cx="65" cy="230"
-        r="5"
-        fill="pink"/>
-  <circle cx="73" cy="238"
-        r="5"
-        fill="pink"/>
-  <circle cx="65" cy="246"
-        r="5"
-        fill="pink"/>
-  <circle cx="57" cy="238"
-        r="5"
-        fill="pink"/>
-  <circle cx="65" cy="238"
-        r="3"
-        fill="yellow"/>
+    <!-- Flower -->
+  <g id="flower">
 
-  <rect x="64" y="251"
-        width="2" height="15"
-        fill="#76502f"/>
+    <!-- Petals and center -->
+    <circle cx="65" cy="230"
+            r="5"
+            fill="pink"/>
+    <circle cx="73" cy="238"
+            r="5"
+            fill="pink"/>
+    <circle cx="65" cy="246"
+            r="5"
+            fill="pink"/>
+    <circle cx="57" cy="238"
+            r="5"
+            fill="pink"/>
+    <circle cx="65" cy="238"
+            r="3"
+            fill="yellow"/>
 
-  <ellipse cx="55.5" cy="260.5"
+    <!-- Stem -->
+    <rect x="64" y="251"
+          width="2"
+          height="15"
+          fill="#76502f"/>
+
+    <!-- Leaves -->
+    <ellipse cx="55.5" cy="260.5"
              rx="10" ry="4"
              fill="#5d9b55"
              transform="rotate(30 55.5 260.5)"/>
-  <ellipse cx="74.5" cy="260.5"
+
+    <ellipse cx="74.5" cy="260.5"
              rx="10" ry="4"
              fill="#5d9b55"
              transform="rotate(150 74.5 260.5)"/>
+
+  </g>
 
 
   <!-- Title -->
