@@ -52,5 +52,5 @@ Ensure that:
 - Your code is pushed to GitHub
 - Your repository link is submitted through the submission system.
 
-## AI Declaration for Exercise5.1
-I used ChatGPT to help me find errors in my D3.js code. ChatGPT identified that `width` and `height` needed to be defined before they were used, and that `data.map(d.Screen_Tech)` needed to be changed to `data.map(d => d.Screen_Tech)`. I made these changes to fix the bar chart.
+## AI Declaration for Exercise5.2
+I used ChatGPT to check my D3.js line chart code and help me understand why the chart was not appearing. ChatGPT helped me identify the missing `line-chart` container in my HTML and explained how the scatter plot code works. I then made the changes to my own code.
