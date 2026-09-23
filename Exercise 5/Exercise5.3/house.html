@@ -1,0 +1,155 @@
+<img src="img/circle,rect,line.png" alt="annotate an example of circle, rect, line">
+
+<img src="img/path,ellipse.png" alt="annotate an example of path, ellipse">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="450"
+     height="300"
+     viewBox="0 0 450 300">
+
+  <style>
+    .wall {
+      fill: #ffdef8;
+      stroke: #ffb7da;
+      stroke-width: 2;
+    }
+
+    .roof {
+      fill: #e53bff;
+      stroke: #d400ff;
+      stroke-width: 2;
+    }
+
+    .window {
+      fill: #bfe3f2;
+      stroke: #ff74a5;
+      stroke-width: 2;
+    }
+
+    .grass {
+      fill: #9bcf7b;
+    }
+  </style>
+
+  <!-- Garden -->
+  <rect class="grass"
+        x="0" y="215"
+        width="450" height="85"/>
+
+  <!-- Sun -->
+  <circle cx="75" cy="60" r="27"
+          fill="#ffd65a"/>
+
+  <!-- House -->
+  <g id="house">
+
+    <!-- Wall -->
+    <rect class="wall"
+          x="140" y="125"
+          width="170" height="105"/>
+
+    <!-- Roof -->
+    <path class="roof"
+          d="M120 125 L225 45 L330 125 Z"/>
+
+    <!-- Door -->
+    <rect x="205" y="175"
+          width="35" height="55"
+          fill="#7b4f36"/>
+
+    <!-- Door handle -->
+    <circle cx="232" cy="203"
+            r="3"
+            fill="#ffd65a"/>
+
+<!-- Windows -->
+<g id="windows">
+
+  <!-- First window -->
+  <rect class="window"
+        x="160" y="150"
+        width="35" height="30"/>
+
+  <line x1="177" y1="150"
+        x2="177" y2="180"
+        stroke="#315b6b"/>
+
+  <line x1="160" y1="165"
+        x2="195" y2="165"
+        stroke="#315b6b"/>
+
+  <!-- Second window -->
+  <g transform="translate(95, 0)">
+    <rect class="window"
+          x="160" y="150"
+          width="35" height="30"/>
+  </g>
+
+</g>
+
+  </g>
+
+  <!-- Tree -->
+  <rect x="385" y="190"
+          width="10" height="45"
+          fill="#76502f"/>
+          
+  <ellipse cx="390" cy="185"
+             rx="35" ry="30"
+             fill="#5d9b55"/>
+
+  <!-- Garden path -->
+  <path d="M222 230 L222 300"
+        stroke="#d9c2a0"
+        stroke-width="20"
+        fill="none"/>
+
+    <!-- Flower -->
+  <g id="flower">
+
+    <!-- Petals and center -->
+    <circle cx="65" cy="230"
+            r="5"
+            fill="pink"/>
+    <circle cx="73" cy="238"
+            r="5"
+            fill="pink"/>
+    <circle cx="65" cy="246"
+            r="5"
+            fill="pink"/>
+    <circle cx="57" cy="238"
+            r="5"
+            fill="pink"/>
+    <circle cx="65" cy="238"
+            r="3"
+            fill="yellow"/>
+
+    <!-- Stem -->
+    <rect x="64" y="251"
+          width="2"
+          height="15"
+          fill="#76502f"/>
+
+    <!-- Leaves -->
+    <ellipse cx="55.5" cy="260.5"
+             rx="10" ry="4"
+             fill="#5d9b55"
+             transform="rotate(30 55.5 260.5)"/>
+
+    <ellipse cx="74.5" cy="260.5"
+             rx="10" ry="4"
+             fill="#5d9b55"
+             transform="rotate(150 74.5 260.5)"/>
+
+  </g>
+
+
+  <!-- Title -->
+  <text x="225" y="290"
+        text-anchor="middle"
+        font-size="14"
+        font-family="Arial">
+    New My House
+  </text>
+
+</svg>
