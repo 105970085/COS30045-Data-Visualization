@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Energy Consumption Histogram</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/visualisation.css">
+</head>
+<body>
+
+    <header>
+        <h1>TV Energy Consumption Histogram</h1>
+    </header>
+
+    <main>
+        <div>
+            <h1>The Histogram of Energy Consumption for different TV screen types and sizes</h1>
+        </div>
+
+        <div id="filters_screen"></div>
+
+        <div id="histogram" class="responsive-svg-container"></div>
+
+    </main>
+
+    <footer>
+        <p>&copy; Data Visualisation Week6</p>
+    </footer>
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <script src="js/shared-constants.js"></script>
+    
+    <script src="js/histogram.js"></script>
+    
+    <script src="js/load-data.js"></script>
+    
+    <script src="js/interactions.js"></script>
+</body>
+</html>

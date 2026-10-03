@@ -1,0 +1,21 @@
+/* Visualisation styles */
+.responsive-svg-container {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.responsive-svg-container svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.responsive-svg-container text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.responsive-svg-container .axis path,
+.responsive-svg-container .axis line {
+    stroke: #333;
+}
